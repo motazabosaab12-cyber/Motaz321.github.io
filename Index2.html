@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>موقع موتاز</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 48px;
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 5px #fff; }
+            to { text-shadow: 0 0 20px #ff0, 0 0 30px #f0f, 0 0 40px #0ff; }
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff4757;
+        }
+        img {
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>مرحباً بك في موقعي!</h1>
+    <p>هذا موقع تجريبي على GitHub Pages.</p>
+
+    <button onclick="alert('أهلاً بك في موقعي!')">اضغط هنا</button>
+
+    <img src="https://via.placeholder.com/300" alt="صورة تجريبية">
+
+    <p>تابعني على <a href="https://twitter.com" target="_blank">تويتر</a></p>
+</body>
+</html>
